@@ -18,7 +18,7 @@
 
     <link rel="stylesheet" href="dist/reset.css" />
     <link rel="stylesheet" href="dist/reveal.css" />
-    <link rel="stylesheet" href="dist/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="dist/theme/white-contrast.css" id="theme" />
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="plugin/highlight/monokai.css" />
@@ -26,176 +26,244 @@
 
   <body>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
     <div class="reveal">
       <div class="slides">
         <section
           data-auto-animate
           data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
         >
-          <h2>Play NUMNUM</h2>
-          <div class="r-hstack justify-center">
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script>
-            <lottie-player
-              src="https://lottie.host/d7cdeb0d-5caf-4933-bd2f-e1626db43fa3/sKUxk7HM4r.json"
-              speed="1"
-              style="width: 200px; height: 200px"
-              loop
-              autoplay
-              direction="1"
-              mode="normal"
-            ></lottie-player>
-          </div>
-
-          <p>
-            <small
-              >This presentation will show you usage of what it can do.</small
-            >
-            <small
-              >Created by Service Team and collaborators
-              </small
-            >
-          </p>
-          <div
-            style="
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              gap: 2rem;
-              border-top: 1px solid rgba(255, 255, 255, 0.1);
-              margin-top: 1.5rem;
-              padding-top: 1.5rem;
-            "
+          <section
+            data-auto-animate
+            data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
           >
-            <small>Sponsored by</small>
-            <img
-              src="dist/logo.png"
+            <h2>Play NUMNUM</h2>
+            <div class="r-hstack justify-center">
+              <script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script>
+              <lottie-player
+                src="https://lottie.host/d7cdeb0d-5caf-4933-bd2f-e1626db43fa3/sKUxk7HM4r.json"
+                speed="1"
+                style="width: 200px; height: 200px"
+                loop
+                autoplay
+                direction="1"
+                mode="normal"
+              ></lottie-player>
+            </div>
+
+            <p>
+              <small data-id="profile1">...</small>
+              <br />
+              <small
+                >Created by <a href="">Service Team</a> and
+                <a href="">Service Team</a>
+              </small>
+            </p>
+
+            <div
               style="
-                width: 90px;
-                height: 90px;
-                margin: 10px;
-                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+                border-top: 1px solid rgba(0, 0, 0, 0.1);
+                margin-top: 1.5rem;
+                padding-top: 1.5rem;
               "
-            />
-            <div class="r-hstack justify-center">
+            >
+              <small>Sponsored by</small>
               <img
-                src="dist/이승하.png"
-                data-id="profile1"
+                src="dist/logo.png"
                 style="
-                  width: 70px;
-                  height: 70px;
-                  margin: 10px;
+                  width: 90px;
+                  height: 90px;
+                  
                   border-radius: 5px;
                 "
               />
-              <img
-                src="dist/이윤행.png"
-                data-id="profile2"
-                style="
-                  width: 70px;
-                  height: 70px;
-                  margin: 10px;
-                  border-radius: 5px;
-                "
-              />
-              <img
-                src="dist/정준영.png"
-                data-id="profile3"
-                style="
-                  width: 70px;
-                  height: 70px;
-                  margin: 10px;
-                  border-radius: 5px;
-                "
-              />
+              <div class="r-hstack justify-center">
+                <img
+                  src="dist/이승하.png"
+                  data-id="profile1"
+                  style="
+                    width: 70px;
+                    height: 70px;
+
+                    border-radius: 5px;
+                  "
+                />
+                <img
+                  src="dist/이윤행.png"
+                  data-id="profile2"
+                  style="
+                    width: 70px;
+                    height: 70px;
+
+                    border-radius: 5px;
+                  "
+                />
+                <img
+                  src="dist/정준영.png"
+                  data-id="profile3"
+                  style="
+                    width: 70px;
+                    height: 70px;
+
+                    border-radius: 5px;
+                  "
+                />
+              </div>
             </div>
-          </div>
+          </section>
+
+          <section
+            data-auto-animate
+            data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+          >
+            <h2>Goals</h2>
+            <ol>
+              <li>Ppt will show you user scenario of what it can do.</li>
+              <li class="fragment">
+                <a>Obtaining test data through user acquisition</a>
+              </li>
+              <li class="fragment">
+                <em>There is no such thing as a free lunch</em>
+              </li>
+            </ol>
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+                margin-top: 1.5rem;
+                padding-top: 1.5rem;
+              "
+            >
+              <small>Sponsored by</small>
+              <div class="r-hstack justify-center">
+                <img
+                  src="dist/이승하.png"
+                  data-id="profile1"
+                  style="
+                    width: 70px;
+                    height: 70px;
+
+                    border-radius: 5px;
+                  "
+                />
+                <img
+                  src="dist/이윤행.png"
+                  data-id="profile2"
+                  style="
+                    width: 70px;
+                    height: 70px;
+
+                    border-radius: 5px;
+                  "
+                />
+                <img
+                  src="dist/정준영.png"
+                  data-id="profile3"
+                  style="
+                    width: 70px;
+                    height: 70px;
+
+                    border-radius: 5px;
+                  "
+                />
+              </div>
+            </div>
+          </section>
+
+          <section
+            data-auto-animate
+            data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
+          >
+            <h2>Take chances</h2>
+            <div class="r-hstack justify-center">
+              <lottie-player
+                src="https://lottie.host/036de4ce-1712-4b41-8f3b-477670781be4/GlVlU4gKVS.json"
+                background="transparent"
+                speed="1"
+                style="width: 300px; height: 300px"
+                loop
+                autoplay
+                direction="1"
+                mode="normal"
+              ></lottie-player>
+              +
+              <lottie-player
+                src="https://lottie.host/75083f49-def0-44c3-999b-42c266df2ebb/dtXINldHCU.json"
+                background="##FFFFFF"
+                speed="1"
+                style="width: 300px; height: 300px"
+                loop
+                autoplay
+                direction="1"
+                mode="normal"
+              ></lottie-player>
+              =
+              <lottie-player
+                src="https://lottie.host/e11d784b-3554-4aef-ab4c-5bb8853fa03c/sEaTkwp0ZD.json"
+                background="##FFFFFF"
+                speed="1"
+                style="width: 300px; height: 300px"
+                loop
+                autoplay
+                direction="1"
+                mode="normal"
+              ></lottie-player>
+            </div>
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+                margin-top: 1.5rem;
+                padding-top: 1.5rem;
+              "
+            >
+              <small>Sponsored by</small>
+              <div class="r-hstack justify-center">
+                <img
+                  src="dist/이승하.png"
+                  data-id="profile1"
+                  style="
+                    width: 100px;
+                    height: 100px;
+
+                    border-radius: 5px;
+                  "
+                />
+                <img
+                  src="dist/이윤행.png"
+                  data-id="profile2"
+                  style="
+                    width: 100px;
+                    height: 100px;
+
+                    border-radius: 5px;
+                  "
+                />
+                <img
+                  src="dist/정준영.png"
+                  data-id="profile3"
+                  style="
+                    width: 100px;
+                    height: 100px;
+
+                    border-radius: 5px;
+                  "
+                />
+              </div>
+            </div>
+          </section>
         </section>
 
-        <section
-          data-auto-animate
-          data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"
-        >
-          <h2>Take chances</h2>
-          <div class="r-hstack justify-center">
-            <lottie-player
-              src="https://lottie.host/036de4ce-1712-4b41-8f3b-477670781be4/GlVlU4gKVS.json"
-              background="transparent"
-              speed="1"
-              style="width: 300px; height: 300px"
-              loop
-              autoplay
-              direction="1"
-              mode="normal"
-            ></lottie-player>
-            +
-            <lottie-player
-              src="https://lottie.host/75083f49-def0-44c3-999b-42c266df2ebb/dtXINldHCU.json"
-              background="##FFFFFF"
-              speed="1"
-              style="width: 300px; height: 300px"
-              loop
-              autoplay
-              direction="1"
-              mode="normal"
-            ></lottie-player>
-            =
-            <lottie-player
-              src="https://lottie.host/e11d784b-3554-4aef-ab4c-5bb8853fa03c/sEaTkwp0ZD.json"
-              background="##FFFFFF"
-              speed="1"
-              style="width: 300px; height: 300px"
-              loop
-              autoplay
-              direction="1"
-              mode="normal"
-            ></lottie-player>
-          </div>
-          <div
-            style="
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              gap: 2rem;
-              border-top: 1px solid rgba(255, 255, 255, 0.1);
-              margin-top: 1.5rem;
-              padding-top: 1.5rem;
-            "
-          >
-            <small>Sponsored by</small>
-            <div class="r-hstack justify-center">
-              <img
-                src="dist/이승하.png"
-                data-id="profile1"
-                style="
-                  width: 100px;
-                  height: 100px;
-                  margin: 10px;
-                  border-radius: 5px;
-                "
-              />
-              <img
-                src="dist/이윤행.png"
-                data-id="profile2"
-                style="
-                  width: 100px;
-                  height: 100px;
-                  margin: 10px;
-                  border-radius: 5px;
-                "
-              />
-              <img
-                src="dist/정준영.png"
-                data-id="profile3"
-                style="
-                  width: 100px;
-                  height: 100px;
-                  margin: 10px;
-                  border-radius: 5px;
-                "
-              />
-            </div>
-          </div>
-        </section>
         <section>
           <h2>We were here!</h2>
           <div class="r-hstack justify-center">
@@ -213,7 +281,7 @@
         </section>
 
         <section>
-          <h2>#Check Demo App & Install</h2>
+          <h2>Check Demo App or Install</h2>
           <table>
             <thead>
               <tr>
@@ -224,462 +292,887 @@
             <tbody>
               <tr>
                 <td>iOS</td>
-                <td>v0.0.4(60)</td>
+                <td>0.0.5(11)</td>
+                </td>
               </tr>
               <tr>
                 <td>Android</td>
-                <td>v0.0.4(60)</td>
-              </tr>
+                <td>0.0.5(11)</td>
+                <td>
+                </td>
               </tr>
             </tbody>
           </table>
-          <br />
-          or
-          <div class="r-hstack justify-center">
-            Email
-            <img
-              src="https://static.vecteezy.com/system/resources/thumbnails/027/208/705/small_2x/email-address-icon-logo-communication-isolated-on-transparent-background-email-address-and-contact-3d-rendering-png.png"
-              style="
-                width: 60px;
-                height: 60px;
-                margin: 10px;
-                border-radius: 5px;
-              "
-            />
-             (
-              Slack @ <strong>001-tf잡담방</strong>
-            )
-          </div>
-        </section>
-
-        <section>
-          <h2>#1 Login and Referral code</h2>
-          <section>
-            <h3>Collaborators</h3>
-            <p>
-              <small
-                >Blah...</small
-              >
-            </p>
+          <td>
             <div
             style="
               display: flex;
               align-items: center;
               justify-content: center;
               gap: 2rem;
-              border-top: 1px solid rgba(255, 255, 255, 0.1);
+              border-top: 1px solid rgba(0, 0, 0, 0.1);
               margin-top: 1.5rem;
               padding-top: 1.5rem;
             "
           >
+            <small>Support by</small>
             <div class="r-hstack justify-center">
-              <img
-                src="dist/이광희.png"
-                data-id="profile1"
-                style="
-                  width: 50px;
-                  height: 50px;
-                  margin: 10px;
-                  border-radius: 5px;
-                "
-              />
-              <img
-              src="dist/이광희.png"
-                data-id="profile2"
-                style="
-                  width: 50px;
-                  height: 50px;
-                  margin: 10px;
-                  border-radius: 5px;
-                "
-              />
-              <img
-              src="dist/이광희.png"
-                data-id="profile3"
-                style="
-                  width: 50px;
-                  height: 70px;
-                  margin: 10px;
-                  border-radius: 5px;
-                "
-              />
+            <img
+              src="dist/박상후.png"
+              style="width: 50px; height: 50px; border-radius: 5px"/>
+            <img
+            src="dist/김현용.png"
+            data-id="profile1"
+            style="width: 50px; height: 50px; border-radius: 5px" />
+        </div>
+        <small>@tf논의방</small>
+      </div>
+
+        </section>
+
+        <section>
+          <section>
+            <h2>Login and Referral code</h2>
+            <div class="r-hstack justify-center">
+            <dotlottie-player src="https://lottie.host/3a1c21f3-ffe1-421f-9c5d-66a95b0e902d/iALk8Vu4lA.lottie" background="transparent" speed="1" style="width: 200px; height: 200px" loop autoplay></dotlottie-player>
             </div>
+            <p>
+              <small>Blah...</small>
+            </p>
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+                border-top: 1px solid rgba(0, 0, 0, 0.1);
+                margin-top: 1.5rem;
+                padding-top: 1.5rem;
+              "
+            >
+              <div class="r-hstack justify-center">
+                <img
+                  src="dist/이광희.png"
+                  style="
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 5px;
+                  "
+                />
+                <img
+                  src="dist/박상후.png"
+                  data-id="profile2"
+                  style="
+                    width: 80px;
+                    height: 80px;
+
+                    border-radius: 5px;
+                  "
+                />
+                <img
+                  src="dist/나영채.png"
+                  style="
+                    width: 80px;
+                    height: 80px;
+
+                    border-radius: 5px;
+                  "
+                />
+                <img
+                src="dist/한민진.png"
+                style="
+                  width: 80px;
+                  height: 80px;
+                  
+                  border-radius: 5px;
+                "
+              />
+              <img
+              src="dist/주민범.png"
+              style="
+                width: 80px;
+                height: 80px;
+                
+                border-radius: 5px;
+              "
+            />
+            <img
+            src="dist/백수정.png"
+            style="
+              width: 80px;
+              height: 80px;
+              border-radius: 5px;
+            "
+          />
+              </div>
             </div>
           </section>
           <section>
-            <h3>#1 Login</h3>
+            <h3>Login</h3>
             <p>
-              <small
-                >Blah...</small
-              >
+              <small>Choice..Play..Blah..</small>
             </p>
           </section>
           <section>
             <h3>Invite Friends & Code</h3>
+            <p>
+              <small>Link..Play..Blah..</small>
+            </p>
+          </section>
+          <section>
+            <h3>Important 👑</h3>
+            <img
+            src="https://cdn-icons-png.flaticon.com/512/8637/8637124.png"
+            style="
+              width: 180px;
+              height: 180px;
+              border-radius: 5px;
+            "
+          />
+          <p>
+              <small><a><em>Managed point value..</em></a></small><br />
+              <small class="fragment"><em>Welcome Point</em></small><br />
+              <small class="fragment"><em>reward points for StepCounter, TodayPick, WeeklyPick...</em></small><br />
+    
+            </p>
+          </section>
+          <section>
+            <h3>Discussion</h3>
+            <div class="r-hstack justify-center">
+            <dotlottie-player background="transparent" speed="1" style="width: 200px; height: 200px" loop autoplay src="https://assets-v2.lottiefiles.com/a/e54039c8-e05c-11ee-8c36-4b3861d29b28/h2ymXMnVYr.lottie"></dotlottie-player>
+            </div>
+            <p>
+              <small>Blah..</small>
+            </p>
           </section>
         </section>
 
         <section>
-          <h2>#2 Free to Paid UI</h2>
           <section>
-            <h3>Collaborators</h3>
-            <p>
-              <small
-                >Blah...</small
-              >
-            </p>
-            <div
-            style="
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              gap: 2rem;
-              border-top: 1px solid rgba(255, 255, 255, 0.1);
-              margin-top: 1.5rem;
-              padding-top: 1.5rem;
-            "
-          >
-            <div class="r-hstack justify-center">
-              <img
-                src="dist/이광희.png"
-                data-id="profile1"
-                style="
-                  width: 50px;
-                  height: 50px;
-                  margin: 10px;
-                  border-radius: 5px;
-                "
-              />
-              <img
-              src="dist/이광희.png"
-                data-id="profile2"
-                style="
-                  width: 50px;
-                  height: 50px;
-                  margin: 10px;
-                  border-radius: 5px;
-                "
-              />
-              <img
-              src="dist/이광희.png"
-                data-id="profile3"
-                style="
-                  width: 50px;
-                  height: 70px;
-                  margin: 10px;
-                  border-radius: 5px;
-                "
-              />
-            </div>
-            </div>
-          </section>
-          <section>
+            <h2><a>Free to Paid User</a></h2>
             <h3>Free UI</h3>
+            <p>
+              <small><a>Home ➙ Telco ➙ Benefit ➙ AllMenu</a></small>
+            </p>
+            <small><em>Look around!</em></small><br />
           </section>
           <section>
             <h3>Paid UI</h3>
-          </section>
-          <section>
-            <h3>Hidden Menu</h3>
+            <p>
+              <small><a>Home ➙ Telco ➙ Benefit ➙ AllMenu</a></small>
+            </p>
+            <small><em>Look around!</em></small><br />
           </section>
           <section>
             <h3>AppBar</h3>
+            <div class="r-hstack justify-center">
+            <img
+            src="dist/appbar.png"
+            style="
+              width: 340px;
+              height: 150px; 
+              border-radius: 10px;
+            "
+          />
+            </div>
+          </section>
+          <section>
+            <h3>Hidden Menu</h3>
+            <img
+            src="dist/hiddenmenu.jpeg"
+            style="
+              width: 140px;
+              height: 270px; 
+              border-radius: 5px;
+            "
+          />
+          </section>
+          <section>
+            <h3>Discussion</h3>
+            <div class="r-hstack justify-center">
+            <dotlottie-player background="transparent" speed="1" style="width: 200px; height: 200px" loop autoplay src="https://assets-v2.lottiefiles.com/a/e54039c8-e05c-11ee-8c36-4b3861d29b28/h2ymXMnVYr.lottie"></dotlottie-player>
+            </div>
+            <p>
+              <small>Blah..</small>
+            </p>
           </section>
         </section>
 
         <section>
-          <h2>#3 Home</h2>
           <section>
-            <h3>Collaborators</h3>
+            <h2>Home</h2>
+            <div class="r-hstack justify-center">
+            <dotlottie-player src="https://lottie.host/3a1c21f3-ffe1-421f-9c5d-66a95b0e902d/iALk8Vu4lA.lottie" background="transparent" speed="1" style="width: 200px; height: 200px" loop autoplay></dotlottie-player>
+            </div>
             <p>
-              <small
-                >Blah...</small
-              >
+              <small>Blah...</small>
             </p>
             <div
-            style="
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              gap: 2rem;
-              border-top: 1px solid rgba(255, 255, 255, 0.1);
-              margin-top: 1.5rem;
-              padding-top: 1.5rem;
-            "
-          >
-            <div class="r-hstack justify-center">
-              <img
-                src="dist/이광희.png"
-                data-id="profile1"
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+                border-top: 1px solid rgba(0, 0, 0, 0.1);
+                margin-top: 1.5rem;
+                padding-top: 1.5rem;
+              "
+            >
+              <div class="r-hstack justify-center">
+                <img
+                  src="dist/김현용.png"
+                  style="
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 5px;
+                  "
+                />
+                <img
+                src="dist/주민범.png"
                 style="
-                  width: 50px;
-                  height: 50px;
-                  margin: 10px;
+                  width: 80px;
+                  height: 80px;
+                  
                   border-radius: 5px;
                 "
               />
-              <img
-              src="dist/이광희.png"
-                data-id="profile2"
-                style="
-                  width: 50px;
-                  height: 50px;
-                  margin: 10px;
-                  border-radius: 5px;
-                "
-              />
-              <img
-              src="dist/이광희.png"
-                data-id="profile3"
-                style="
-                  width: 50px;
-                  height: 70px;
-                  margin: 10px;
-                  border-radius: 5px;
-                "
-              />
-            </div>
-            </div>
-          </section>
-          <section>
-            <h3>Free and Paid UI</h3>
-          </section>
-          <section>
-            <h3>Admin to App</h3>
-          </section>
-          <section>
-            <h3>Promotion Changed</h3>
-          </section>
-          <section>
-            <h3>Policy Changed</h3>
-          </section>          
-        </section>
+                <img
+                  src="dist/김민지.png"
+                  data-id="profile2"
+                  style="
+                    width: 80px;
+                    height: 80px;
 
-        <section>
-          <h2>#4 Mobile Comunication</h2>
-          <section>
-            <h3>Collaborators</h3>
-            <p>
-              <small
-                >Blah...</small
-              >
-            </p>
-            <div
+                    border-radius: 5px;
+                  "
+                />
+                <img
+                src="dist/한민진.png"
+                style="
+                  width: 80px;
+                  height: 80px;
+                  
+                  border-radius: 5px;
+                "
+              />
+            <img
+            src="dist/백현지.png"
             style="
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              gap: 2rem;
-              border-top: 1px solid rgba(255, 255, 255, 0.1);
-              margin-top: 1.5rem;
-              padding-top: 1.5rem;
+              width: 80px;
+              height: 80px;
+              border-radius: 5px;
             "
-          >
-            <div class="r-hstack justify-center">
-              <img
-                src="dist/이광희.png"
-                data-id="profile1"
-                style="
-                  width: 50px;
-                  height: 50px;
-                  margin: 10px;
-                  border-radius: 5px;
-                "
-              />
-              <img
-              src="dist/이광희.png"
-                data-id="profile2"
-                style="
-                  width: 50px;
-                  height: 50px;
-                  margin: 10px;
-                  border-radius: 5px;
-                "
-              />
-              <img
-              src="dist/이광희.png"
-                data-id="profile3"
-                style="
-                  width: 50px;
-                  height: 70px;
-                  margin: 10px;
-                  border-radius: 5px;
-                "
-              />
-            </div>
-            </div>
-          </section>
+          />
+        </div>
+      </div>
+    </section>
+    <section>
+      <h3>Free and Paid UI</h3>
+      <div class="r-hstack justify-center">
+        Free
+      <div class="video-wrapper">
+ 
+        <video
+        data-autoplay
+        height="300"
+        width="300"
+        playbackRate="10.0"
+        src="dist/free.webm" />
+    </div>
+    <a>Promotions<br />for Free</a>
+    <div class="video-wrapper">
+      <video
+      data-autoplay
+      height="300"
+      width="300"
+      playbackRate="10.0"
+      src="dist/paid.webm" />
+    </div>
+    Paid
+  </div>
+</section>
+<section>
+  <h3>Admin(API) to App</h3>
+  <p>
+      <small><a>Promotion Changed..</a></small>
+    </p>
+</section>
+<section>
+  <h3>Discussion</h3>
+  <div class="r-hstack justify-center">
+  <dotlottie-player background="transparent" speed="1" style="width: 200px; height: 200px" loop autoplay src="https://assets-v2.lottiefiles.com/a/e54039c8-e05c-11ee-8c36-4b3861d29b28/h2ymXMnVYr.lottie"></dotlottie-player>
+  </div>
+  <p>
+    <small>Blah..</small>
+  </p>
+</section>
+</section>
+
+<section>
+<section>
+    <h2>Telco</h2>
+  <div class="r-hstack justify-center">
+  <dotlottie-player src="https://lottie.host/3a1c21f3-ffe1-421f-9c5d-66a95b0e902d/iALk8Vu4lA.lottie" background="transparent" speed="1" style="width: 200px; height: 200px" loop autoplay></dotlottie-player>
+  </div>
+  <p>
+    <small>Blah...</small>
+  </p>
+  <div
+    style="
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+      margin-top: 1.5rem;
+      padding-top: 1.5rem;
+    "
+  >
+    <div class="r-hstack justify-center">
+      <img
+        src="dist/김현용.png"
+        style="
+          width: 80px;
+          height: 80px;
+          border-radius: 5px;
+        "
+      />
+      <img
+      src="dist/금한수.png"
+      style="
+        width: 80px;
+        height: 80px;
+        
+        border-radius: 5px;
+      "
+    />
+      <img
+        src="dist/김민지.png"
+        data-id="profile2"
+        style="
+          width: 80px;
+          height: 80px;
+
+          border-radius: 5px;
+        "
+      />
+      <img
+      src="dist/오정민.png"
+      data-id="profile2"
+      style="
+        width: 80px;
+        height: 80px;
+
+        border-radius: 5px;
+      "
+    />
+      
+</div>
+</div>
+</section>
           <section>
             <h3>Realtime Data Usage</h3>
+            <p>
+                <small>Blah...</small>
+              </p>
           </section>
           <section>
             <h3>Realtime Phone Bill</h3>
+            <p>
+                <small>Blah...</small>
+              </p>
           </section>
           <section>
             <h3>Monthly Phone Bill</h3>
+            <p>
+                <small>Blah...</small>
+              </p>
           </section>
         </section>
 
         <section>
-          <h2>#4 Benefit</h2>
-          <section>
-            <h3>Collaborators</h3>
-            <p>
-              <small
-                >Blah...</small
-              >
-            </p>
-            <div
-            style="
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              gap: 2rem;
-              border-top: 1px solid rgba(255, 255, 255, 0.1);
-              margin-top: 1.5rem;
-              padding-top: 1.5rem;
-            "
-          >
-            <div class="r-hstack justify-center">
-              <img
-                src="dist/이광희.png"
-                data-id="profile1"
+            <section>
+                <h2>Benefit</h2>
+              <div class="r-hstack justify-center">
+              <dotlottie-player src="https://lottie.host/3a1c21f3-ffe1-421f-9c5d-66a95b0e902d/iALk8Vu4lA.lottie" background="transparent" speed="1" style="width: 200px; height: 200px" loop autoplay></dotlottie-player>
+              </div>
+              <p>
+                <small>Blah...</small>
+              </p>
+              <div
                 style="
-                  width: 50px;
-                  height: 50px;
-                  margin: 10px;
-                  border-radius: 5px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 2rem;
+                  border-top: 1px solid rgba(0, 0, 0, 0.1);
+                  margin-top: 1.5rem;
+                  padding-top: 1.5rem;
                 "
-              />
-              <img
-              src="dist/이광희.png"
+              >
+                <div class="r-hstack justify-center">
+                  <img
+                    src="dist/이광희.png"
+                    style="
+                      width: 80px;
+                      height: 80px;
+                      border-radius: 5px;
+                    "
+                  />
+                  <img
+                  src="dist/박상후.png"
+                  style="
+                    width: 80px;
+                    height: 80px;
+                    
+                    border-radius: 5px;
+                  "
+                />
+                  <img
+                  src="dist/주민범.png"
+                  style="
+                    width: 80px;
+                    height: 80px;
+                    
+                    border-radius: 5px;
+                  "
+                />
+                  <img
+                  src="dist/금한수.png"
+                  style="
+                    width: 80px;
+                    height: 80px;
+                    
+                    border-radius: 5px;
+                  "
+                />
+                  <img
+                    src="dist/백현지.png"
+                    data-id="profile2"
+                    style="
+                      width: 80px;
+                      height: 80px;
+            
+                      border-radius: 5px;
+                    "
+                  />
+                  <img
+                  src="dist/한민진.png"
+                  data-id="profile2"
+                  style="
+                    width: 80px;
+                    height: 80px;
+          
+                    border-radius: 5px;
+                  "
+                />
+                <img
+                src="dist/강동웅.png"
                 data-id="profile2"
                 style="
-                  width: 50px;
-                  height: 50px;
-                  margin: 10px;
-                  border-radius: 5px;
-                "
-              />
-              <img
-              src="dist/이광희.png"
-                data-id="profile3"
-                style="
-                  width: 50px;
-                  height: 70px;
-                  margin: 10px;
+                  width: 80px;
+                  height: 80px;
+        
                   border-radius: 5px;
                 "
               />
             </div>
             </div>
-          </section>
+            </section>
           <section>
             <h3>Card List</h3>
+            <p>
+                <small>Blah...</small>
+              </p>
           </section>
           <section>
             <h3>TodayPick</h3>
+            <p>
+                <small>Blah...</small>
+              </p>
           </section>
           <section>
             <h3>WeeklyPick</h3>
+            <p>
+                <small>Blah...</small>
+              </p>
           </section>
           <section>
             <h3>StepCounter</h3>
+            <p>
+                <small>Blah...</small>
+              </p>
+          </section>
+          <section>
+            <h3>Discussion</h3>
+            <div class="r-hstack justify-center">
+            <dotlottie-player background="transparent" speed="1" style="width: 200px; height: 200px" loop autoplay src="https://assets-v2.lottiefiles.com/a/e54039c8-e05c-11ee-8c36-4b3861d29b28/h2ymXMnVYr.lottie"></dotlottie-player>
+            </div>
+            <p>
+              <small>Blah..</small>
+            </p>
           </section>
         </section>
 
         <section>
-          <h2>#5 AllMenu</h2>
-          <section>
-            <h3>Collaborators</h3>
-            <p>
-              <small
-                >Blah...</small
-              >
-            </p>
-            <div
-            style="
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              gap: 2rem;
-              border-top: 1px solid rgba(255, 255, 255, 0.1);
-              margin-top: 1.5rem;
-              padding-top: 1.5rem;
-            "
-          >
-            <div class="r-hstack justify-center">
-              <img
-                src="dist/이광희.png"
-                data-id="profile1"
+            <section>
+                <h2>All Menu</h2>
+              <div class="r-hstack justify-center">
+              <dotlottie-player src="https://lottie.host/3a1c21f3-ffe1-421f-9c5d-66a95b0e902d/iALk8Vu4lA.lottie" background="transparent" speed="1" style="width: 200px; height: 200px" loop autoplay></dotlottie-player>
+              </div>
+              <p>
+                <small>Blah...</small>
+              </p>
+              <div
                 style="
-                  width: 50px;
-                  height: 50px;
-                  margin: 10px;
-                  border-radius: 5px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  gap: 2rem;
+                  border-top: 1px solid rgba(0, 0, 0, 0.1);
+                  margin-top: 1.5rem;
+                  padding-top: 1.5rem;
                 "
-              />
-              <img
-              src="dist/이광희.png"
+              >
+                <div class="r-hstack justify-center">
+                  <img
+                    src="dist/박상후.png"
+                    style="
+                      width: 50px;
+                      height: 50px;
+                      border-radius: 5px;
+                    "
+                  />
+                  <img
+                  src="dist/정건욱.png"
+                  style="
+                    width: 50px;
+                    height: 50px;
+                    
+                    border-radius: 5px;
+                  "
+                />
+                  <img
+                  src="dist/금한수.png"
+                  style="
+                    width: 50px;
+                    height: 50px;
+                    
+                    border-radius: 5px;
+                  "
+                />
+                  <img
+                  src="dist/유홍근.png"
+                  style="
+                    width: 50px;
+                    height: 50px;
+                    
+                    border-radius: 5px;
+                  "
+                />
+                  <img
+                    src="dist/백수정.png"
+                    data-id="profile2"
+                    style="
+                      width: 50px;
+                      height: 50px;
+            
+                      border-radius: 5px;
+                    "
+                  />
+                  <img
+                  src="dist/김민지.png"
+                  data-id="profile2"
+                  style="
+                    width: 50px;
+                    height: 50px;
+          
+                    border-radius: 5px;
+                  "
+                />
+                <img
+                src="dist/주민범.png"
                 data-id="profile2"
                 style="
                   width: 50px;
                   height: 50px;
-                  margin: 10px;
+        
                   border-radius: 5px;
                 "
               />
               <img
-              src="dist/이광희.png"
-                data-id="profile3"
-                style="
-                  width: 50px;
-                  height: 70px;
-                  margin: 10px;
-                  border-radius: 5px;
-                "
-              />
+              src="dist/나영채.png"
+              data-id="profile2"
+              style="
+                width: 50px;
+                height: 50px;
+      
+                border-radius: 5px;
+              "
+            />
+            <img
+            src="dist/김소영.png"
+            data-id="profile2"
+            style="
+              width: 50px;
+              height: 50px;
+    
+              border-radius: 5px;
+            "
+          />
+          <img
+          src="dist/오정민.png"
+          data-id="profile2"
+          style="
+            width: 50px;
+            height: 50px;
+  
+            border-radius: 5px;
+          "
+        />
+        <img
+        src="dist/강동웅.png"
+        data-id="profile2"
+        style="
+          width: 50px;
+          height: 50px;
+
+          border-radius: 5px;
+        "
+      />
+      <img
+      src="dist/백현지.png"
+      data-id="profile2"
+      style="
+        width: 50px;
+        height: 50px;
+
+        border-radius: 5px;
+      "
+    />
+    <img
+    src="dist/한민진.png"
+    data-id="profile2"
+    style="
+      width: 50px;
+      height: 50px;
+
+      border-radius: 5px;
+    "
+  />
+  <img
+  src="dist/강병주.png"
+  data-id="profile2"
+  style="
+    width: 50px;
+    height: 50px;
+
+    border-radius: 5px;
+  "
+/>
+<img
+src="dist/류수희.png"
+data-id="profile2"
+style="
+  width: 50px;
+  height: 50px;
+
+  border-radius: 5px;
+"
+/>
             </div>
             </div>
-          </section>
+            </section>
           <section>
             <h3>My Phone Infomation</h3>
+            <p>
+                <small>Blah...</small>
+              </p>
           </section>
           <section>
             <h3>Point & Point Usage</h3>
+            <p>
+                <small>Blah...</small>
+              </p>
           </section>
           <section>
             <h3>Gifticon</h3>
+            <br />
+            <video
+              data-autoplay
+              height="400"
+              width="400"
+              playbackRate="10.0"
+              src="dist/[참고자료] 프론트 영상 시나리오.MP4"
+            />
           </section>
           <section>
             <h3>Phone Plan & Additional Services & Roaming</h3>
+            <p>
+                <small>Blah...</small>
+              </p>
           </section>
           <section>
             <h3>Notice</h3>
-            <h3>Admin to App</h3>
+            <p>
+                <small>Admin..Blah...</small>
+              </p>
           </section>
-          <section>
-            <h3>Help</h3>
-            <h3>Admin to App</h3>
+          <section
+            data-background-iframe="https://dev.admin.numnumapi.com/adminweb/custnoti/list"
+            data-background-interactive
+          >
+            <div
+              style="
+                position: absolute;
+                width: 25%;
+                top: 0;
+                right: 0;
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5),
+                  0 5px 25px rgba(0, 0, 0, 0.2);
+                background-color: rgba(255, 255, 255, 0.9);
+                color: #fff;
+                padding: 20px;
+                font-size: 20px;
+                text-align: left;
+              "
+            >
+              <h5>Admin Web</h5>
+            </div>
           </section>
           <section>
             <h3>Customer Center(FAQ)</h3>
-            <h3>Admin to App</h3>
+            <p>
+                <small>Admin..Blah...</small>
+              </p>
+          </section>
+          <section
+            data-background-iframe="https://dev.admin.numnumapi.com/adminweb/custfaq/list"
+            data-background-interactive
+          >
+            <div
+              style="
+                position: absolute;
+                width: 25%;
+                top: 0;
+                right: 0;
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5),
+                  0 5px 25px rgba(0, 0, 0, 0.2);
+                background-color: rgba(255, 255, 255, 0.9);
+                color: #fff;
+                padding: 20px;
+                font-size: 20px;
+                text-align: left;
+              "
+            >
+            <h5>Admin Web</h5>
+            </div>
           </section>
           <section>
-            <h3>ChatBot</h3>
+            <h2>Help</h2>
+            <p>
+                <small>Admin..Blah...</small>
+              </p>
+          </section>
+          <section
+            data-background-iframe="https://dev.admin.numnumapi.com/adminweb/custhelp/list"
+            data-background-interactive
+          >
+            <div
+              style="
+                position: absolute;
+                width: 25%;
+                top: 0;
+                right: 0;
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5),
+                  0 5px 25px rgba(0, 0, 0, 0.2);
+                background-color: rgba(255, 255, 255, 0.9);
+                color: #fff;
+                padding: 20px;
+                font-size: 20px;
+                text-align: left;
+              "
+            >
+              <h5>Admin Web</h5>
+            </div>
           </section>
           <section>
-            <h3>Campaign & Push</h3>
-            <h3>Admin to App</h3>
+            <h2>ChatBot</h2>
+            <p>
+                <small>Counselor Admin..Blah...</small>
+              </p>
+          </section>
+          <section
+            data-background-iframe="https://dev.cs.numnumapi.com/chat"
+            data-background-interactive
+          >
+            <div
+              style="
+                position: absolute;
+                width: 25%;
+                top: 0;
+                right: 0;
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5),
+                  0 5px 25px rgba(0, 0, 0, 0.2);
+                background-color: rgba(255, 255, 255, 0.9);
+                color: #fff;
+                padding: 20px;
+                font-size: 20px;
+                text-align: left;
+              "
+            >
+              <h5>ChatBot Web</h5>
+            </div>
+          </section>
+          <section>
+            <h2>Campaign</h2>
+            <p>
+                <small>Admin..Blah...</small>
+              </p>
+          </section>
+          <section
+            data-background-iframe="https://dev.hoo.numnumapi.com/campaign"
+            data-background-interactive
+          >
+            <div
+              style="
+                position: absolute;
+                width: 25%;
+                top: 0;
+                right: 0;
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5),
+                  0 5px 25px rgba(0, 0, 0, 0.2);
+                background-color: rgba(255, 255, 255, 0.9);
+                color: #fff;
+                padding: 20px;
+                font-size: 20px;
+                text-align: left;
+              "
+            >
+              <h5>Admin Web</h5>
+            </div>
+          </section>
+
+          <section>
+            <h3>Discussion</h3>
+            <div class="r-hstack justify-center">
+            <dotlottie-player background="transparent" speed="1" style="width: 200px; height: 200px" loop autoplay src="https://assets-v2.lottiefiles.com/a/e54039c8-e05c-11ee-8c36-4b3861d29b28/h2ymXMnVYr.lottie"></dotlottie-player>
+            </div>
+            <p>
+              <small>Blah..</small>
+            </p>
           </section>
         </section>
 
-        <section style="text-align: left">
+        <section>
           <h2>Show Winners & Gifts</h2>
+          <div class="r-hstack justify-center">
+<!-- <dotlottie-player src="https://lottie.host/5762dc8a-3e1c-4c7c-8204-271d3e7167a6/OjzbBNOLjW.lottie" background="transparent" speed="0.2" style="width: 300px; height: 300px" loop autoplay></dotlottie-player> -->
+<dotlottie-player src="https://assets-v2.lottiefiles.com/a/035bf0d6-1188-11ee-b807-9f8f3f0b6d0f/Wdhqf7055f.lottie" background="transparent" speed="2" style="width: 300px; height: 300px" loop autoplay></dotlottie-player>
+          </div>
         </section>
 
-        <section style="text-align: left">
+        <section>
           <h2>THE END</h2>
         </section>
       </div>
